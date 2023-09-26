@@ -3,39 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>College Registration Form</title>
 </head>
 <body>
-    <h4>NATIONAL GEOGRAPHIC</h4>
-    <h1>Flamings in the Wild</h1>
-    <img src="https://w0.peakpx.com/wallpaper/372/733/HD-wallpaper-pink-flamingos-flamingos-wild-heart-birds-pink-outdoors.jpg" align="right" width="500" height="300">
-    <p>There are only six flamingo species in the world, but they can be surprisingly easy to see for birders who want to add flamingos to their life list and know where to look for these wild birds.
-
-    </p><br>
-    <h1>HABITATS</h1>
-    <P>Flamingos are quite adaptable, and they can be found in a range of wet habitats from freshwater to saltwater, including mudflats, lakes, coastal lagoons, open marshes, and relatively shallow salt lakes.
-
-    </P><br>
-    <ul type="circle">
-        <li>lorem ipsum dolor sit amet</li>
-        <li>consectetur adipiscing</li>
-        <li>elit nullam nunc justo</li>
-        <li>sagittis suscipit ultrices</li>
-    </ul>
-    <img src="https://media.istockphoto.com/id/803488560/photo/flamingos.jpg?s=2048x2048&w=is&k=20&c=urGdUs5k2iePPs2ddmZM4yW1a5StDBIk0_riBVRbjVo=" align="left" width="500" height="300">
-    <h1>Flamingo nests are amde of mud.</h1>
-    <p>A flamingo’s nest looks like a mini mud volcano, with room for one large egg. Flamingos are monogamous, and mom and dad are team players. Both help to build the nest and incubate the egg. Flamingo chicks hatch with white-gray, downy feathers and straight bills. It takes several years for them to acquire their signature pink color and hook-shaped bills.
-
-        The Smithsonian’s National Zoo has been home to flamingos since around its founding more than 130 years ago. Bird House keepers have worked to breed flamingos since the early ‘90s and have welcomed more than 120 chicks over the years!
-        In addition to Caribbean flamingos, there are lesser, greater, James’s (or Puna), Chilean and Andean flamingos. Greater flamingos are found in parts of Africa, Asia, and Europe. They are the largest and tallest flamingo species.
-
-
-        </p>
-        <h1>Six Flamingo Species</h1>
-        <p>In addition to Caribbean flamingos, there are lesser, greater, James’s (or Puna), Chilean and Andean flamingos. Greater flamingos are found in parts of Africa, Asia, and Europe. They are the largest and tallest flamingo species.
-
-            Chilean, Andean, and James’s flamingos are found only in South America. Andean flamingos are the rarest of the six species, with fewer than 40,000 birds. Lesser flamingos are found in parts of Africa and southern Asia. They are the smallest flamingos and the most abundant. There are more than 2 million lesser flamingos brightening skies and shores with their pink plumage.
-            
-            </p>
+    <form>
+        <h3>Name*</h3>
+        <br>
+        <input type="text" name="fname" placeholder="enter first name"/>
+        <input type="text" name="fname" placeholder="enter last name"/>
+        <h3>Date Of Birth</h3>
+        <br>
+        <input type="date"/>
+        <br>
+        <h3>Email</h3>
+        <input type="email" name="email" placeholder="enter email"/><br>
+        <h3>Father's Name</h3><br>
+        <input type="text" name="fname" placeholder="enter first name"/>
+        <input type="text" name="fname" placeholder="enter last name"/>
+        <br>
+        <h3>Mother's Name</h3><br>
+        <input type="text" name="fname" size="15" placeholder="enter first name"/>
+        <input type="text" name="fname" size="15" placeholder="enter last name"/>
+        <br>
+        <h3>Gender*</h3><br>
+        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender">Female<br>
+        <h3>Nationality</h3><br>
+        <input type="text" size="30" maxsize="20"/><br>
+        <h3>Home address</h3>
+        Street Address:<input type="text" size="16" maxsize="50"/>
+        <br>
+        City:          <input type="text"/><br>
+        Country:       <input type="text"/><br>
+        Pincode:       <input type="text">
+        <h3>Hobbies</h3><br>
+        Drawing:<input type="checkbox">
+        Singing:<input type="checkbox">
+        Dancing:<input type="checkbox">
+        Sketching:<input type="checkbox"><br>
+        <h3>Branch</h3>
+        CSE<input type="radio" name="branch">
+        ECE<input type="radio" name="branch">
+        EEE<input type="radio" name="branch">
+        MECH<input type="radio" name="branch">
+        CIVIL<input type="radio" name="branch">
+        <h3>Mobile Number</h3>
+        <input type="number" name="phone" value="### ### ####"/>
+        <h3>In a few sentences, write down why you want to become a student of our College*</h3>
+        <textarea rows=5 cols="20">
+        </textarea>
+        <h3>Electronic signature(Parent/Guardian)*</h3>
+        <textarea rows="4" cols="20">
+        </textarea>
+    </form>
 </body>
 </html>
